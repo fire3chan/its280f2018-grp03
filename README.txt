@@ -1,4 +1,4 @@
- /* PROJECT TEAM 03 */
+ /* This website is made by OUHK PROJECT TEAM 03 */
         Name:  CHAN,Ka Yan
         OUHK SID: 11864839
 
