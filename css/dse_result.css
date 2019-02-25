@@ -1,0 +1,44 @@
+﻿/*css for result page*/
+
+
+/*side bar*/
+/*
+#sidebar {
+	flex: 20%;
+	padding-left:10px;
+	padding-right:10px;
+	background:#a7ebed;		
+}
+#main {  
+ 	flex:80%;  
+	padding-left:10px;
+	padding-right:10px;
+}*/
+
+/*Student Result containers*/
+.student17 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+}
+.student17 > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  border: 1px solid;
+}
+.student17 img{
+  width:100%;
+}
+#pass_rate td, #pass_rate th,#great_rate td, #great_rate th{
+  border: 1px solid #ddd;
+    padding: 8px;
+}
+#pass_rate th,#great_rate th{
+  padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2d464c;
+    color: white;
+  border: 2px solid #ddd;
+}

@@ -1,0 +1,48 @@
+﻿#main {  
+  	flex:90%;
+	padding:20px;
+}
+h1{
+	text-align: center;
+	text-decoration: none;	
+	
+}
+.lost{
+	
+	position: relative;
+}
+.error{
+	font-size:35px;	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#lost_img{
+	width:100%;
+	height:auto;
+	max-width:100em;
+	opacity: 0.4;
+    filter: alpha(opacity=40); 
+	
+}
+
+ul{
+	margin-left:30%;
+	font-size:30px;	
+	
+}
+ul li{
+	text-decoration: underline;
+	color:blue;
+	cursor:pointer;
+}
+@media screen and (max-width: 800px) {
+	.error{
+		font-size:1.2em;	
+		position: relative;
+		top:0;
+		left:0;
+		transform:none;
+	}
+}

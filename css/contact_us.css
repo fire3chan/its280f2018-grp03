@@ -1,0 +1,67 @@
+﻿/*css for contactUs only*/
+
+.form{
+    border-radius: 5px;
+    background-color: #cecece;
+    padding: 20px;	
+	
+}
+
+textarea{
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	
+}
+#checkName,#checkEmail,#checkPhone,#checkSubject{
+	color: #E02112;
+
+}
+
+
+#button1, #button2{
+	
+	padding: 12px 20px;
+	border-radius: 40px;
+	color: white;
+	background-color: #2980B9;
+	float:right;
+}
+
+#Namebox,#Emailbox,#Phonebox,#subject{
+	
+	width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	margin-bottom: 10px;
+	
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.col2{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .col1, .col2 {
+        width: 100%;
+        margin-top: 0;
+    }
+}
